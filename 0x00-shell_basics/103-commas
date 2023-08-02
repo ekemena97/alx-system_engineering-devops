@@ -1,2 +1,2 @@
 #!/bin/bash
-(printf "../\n./\n"; ls -p | grep -v "/$" | tr '\n' ','; ls -p | grep "/$" | tr '\n' ','; echo)
+ls -a -m --file-type
