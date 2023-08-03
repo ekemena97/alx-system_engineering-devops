@@ -1,2 +1,2 @@
-~#!/bin/bash
-link="_hello"; chown vincent:staff "$(readlink -f "$link")"
+#!/bin/bash
+chown -h vincent:staff _hello
