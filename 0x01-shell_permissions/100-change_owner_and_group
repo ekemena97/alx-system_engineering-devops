@@ -1,1 +1,2 @@
- chown vincent:staff *
+#!/bin/bash
+find . -exec chown vincent:staff {} +
