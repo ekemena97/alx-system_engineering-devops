@@ -1,0 +1,2 @@
+~#!/bin/bash
+link="_hello"; chown vincent:staff "$(readlink -f "$link")"
