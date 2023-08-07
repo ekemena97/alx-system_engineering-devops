@@ -1,2 +1,2 @@
 #!/bin/bash
-sed -n '3p' iacta
+file="iacta"; [ -f "$file" ] && awk 'NR == 3 {print; exit}' "$file"
