@@ -1,2 +1,2 @@
 #!/bin/bash
-file="iacta"; [ -f "$file" ] && awk 'NR == 3 {print; exit}' "$file"
+head -3 iacta | tail +3
