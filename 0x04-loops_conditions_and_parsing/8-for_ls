@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# This script displays the the content of the current directory in a list format with only the name after the first dash '-'
+for file in *; do
+	echo "$file" | cut -d "-" -f 2
+done
