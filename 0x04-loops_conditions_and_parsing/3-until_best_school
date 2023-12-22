@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-# Displays "Best School" 10 times using an until loop.
+# for loop in bash
 
-count=0
+DISP_MSG="Best School"
 
-until [ $count -eq 10 ]
-do
-  echo "Best School"
-  (( count++ ))
+i=10
+until [ "$i" -lt 1 ]; do
+	echo -e "$DISP_MSG"
+	i="$((i-1))"
 done
